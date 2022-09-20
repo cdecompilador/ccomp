@@ -1,4 +1,4 @@
-### Work in progrss toy c compiler written in c
+### Work in progres toy c compiler written in c
 I've done a similar stuff on other languages, but I wanted to try if c
 was capable of the same except the lack of generics and that I completely
 forgot how to use the debugger no mayor issues encountered.

@@ -6,7 +6,8 @@
 int
 main(void) {
     lexer_t lexer = {
-        .it = create_scanner("+  -  *  /  ")
+        // .it = create_scanner("+ if else 10 ola holita_ \"string")
+        .it = create_scanner("+ if else")
     };
     token_t curr_token;
 
@@ -17,8 +18,9 @@ main(void) {
             break;
 
         /* Try extract a token using the retrieved character as pivot */
-        if (match_token(&lexer, *ch, &curr_token) == 0) 
+        if (match_token(&lexer, *ch, &curr_token) == 0) {
             print_token(&curr_token);
+        }
     }
 
     /* testing

@@ -15,6 +15,9 @@ typedef struct {
 
     /* The length in characters of the underlying string */
     size_t len;
+
+    /* Flag to know if a unterminated string was found */
+    bool unterminated_string;
 } scanner_t;
 
 /* Create a new scanner from a string */

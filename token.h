@@ -7,7 +7,7 @@ typedef enum {
     /* Single character tokens */
     LEFT_PAREN, RIGHT_PAREN,
     LEFT_BRACE, RIGHT_BRACE,
-    LEFT_BRACKET, RIGHT_BRACKET,
+    // LEFT_BRACKET, RIGHT_BRACKET,
     MINUS, PLUS, STAR, SLASH,
     SEMICOLON,
 
@@ -18,6 +18,7 @@ typedef enum {
 
     /* Keywords */
     IF,
+    ELSE,
 
     /* Other */
     END_OF_FILE,

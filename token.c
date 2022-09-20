@@ -14,8 +14,6 @@ print_token_kind(token_kind kind) {
     case RIGHT_PAREN: puts("')'"); break;
     case LEFT_BRACE: puts("'{'"); break;
     case RIGHT_BRACE: puts("'}'"); break;
-    case LEFT_BRACKET: puts("'['"); break;
-    case RIGHT_BRACKET: puts("']'"); break;
     case MINUS: puts("'-'"); break;
     case PLUS: puts("'+'"); break;
     case STAR: puts("'*'"); break;
